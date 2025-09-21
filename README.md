@@ -32,5 +32,6 @@ Click ***copy info***, then extrct the seqs.
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/intersection.png)
 
+We can see that the suquence is multi-line, it may cause some error in the following analyis. Using [this program](https://github.com/18297928865/gene-family/blob/programs/multi-mono.py) to transform it to single line
 
-We can see that the suquence is multi-line, it may cause some error in the following analyis. 
+![](https://github.com/18297928865/gene-family/blob/FIIGURES/multiline_program.png)
