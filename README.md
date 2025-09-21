@@ -22,17 +22,17 @@ Reference：[tbtools](https://www.jianshu.com/p/1643f3a90642)
 > [Pfam-A.hmm](ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz)
 > 
 > ID: pfam ID of the motif(s) of PP2C
-Then delete the duplicates just like what we did in blastp part, the rest of which is  **HMM.list**<br>
+Then delete the duplicates just like what we did in blastp part, the rest of which is  **HMM.genelist**<br>
 
-Now, intersect the **blastp.list** and **HMM.list**, we will get **blastp&HMM.list**
+Now, intersect the **blastp.genlist** and **HMM.genelist**, we will get **blastp&HMM.genelist**
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/hmm%26blastp.png)
 
-Click ***copy info***, then extrct the seqs. 
+Click ***copy info***, then extrct the seqs by ids. 
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/intersection.png)
 
-We can see that the suquence is multi-line, it may cause some error in the following analyis. Using [this program](https://github.com/18297928865/gene-family/blob/programs/multi-mono.py) to transform it to single line, that is, **blastp&HMM.sl**
+We can see that the suquence is multi-line, it may cause some error in the following analyis. Using [this program](https://github.com/18297928865/gene-family/blob/programs/multi-mono.py) to transform it to single line, that is, **blastp&HMM.sl.fa**
 
 ```Python
 fr1=input("enter the file path of multi-line fasta")
@@ -61,8 +61,16 @@ fr.close()
 
 ## CD-search
 
-submit **blastp&HMM.sl** to [Batch cd-search tool](https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi)(E-value=0.00005). Check the result, and we can see some gene is not classified as "PP2Cc", which should be excluded. <br/>
+submit **blastp&HMM.sl.fa** to [Batch cd-search tool](https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi)(E-value=0.00005). Check the result, and we can see some gene's motif is not classified as "PP2Cc", which should be excluded. <br/>
 
-Besides, we can see some genes correspond to multiple transcripts. According to E-value and bit score, we choose only one trasncript left for each gene. Here, we will get **blastp&HMM.sl.CD**
+Besides, we can see some genes correspond to multiple transcripts. According to E-value and bit score, we choose only one trasncript left for each gene. Here, we will get **blastp&HMM.sl.CD.genelist**. Than, extract seqs by ids, we will get **blastp&HMM.sl.CD.fa**
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/CD-search.png)
+
+## SMART
+
+submit **blastp&HMM.sl.CD.fa** to [SMART](https://smart.embl.de/). Lacking of batch-SMART tools, please submit sequences one by one.
+
+![](https://github.com/18297928865/gene-family/blob/FIIGURES/smart.png)
+
+Delete genes' motif not calssified as PP2C family, the rest of which are the final genes of PP2C family. 
