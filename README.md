@@ -3,7 +3,8 @@
 ## blastp
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/blastp.png)<br>
 
-Using pep seqs of PP2C download from [tair](https://www.arabidopsis.org/browse/gene_family) as query seqs, pep seqs of ipomoea batatas/trifida/triloba as subject seqs.<br>
+> query seqs: pep seqs of PP2C download from [tair](https://www.arabidopsis.org/browse/gene_family)
+> subject seqs: pep seqs of ipomoea batatas/trifida/triloba
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/blastp.list.png)<br>
 
@@ -13,3 +14,7 @@ Here we repsent the result of the previous step. Delete the duplicates in column
 Reference：[tbtools](https://www.jianshu.com/p/1643f3a90642)
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/HMM.png)
+
+> Input： pep seqs of ipomoea batatas/trifida/triloba
+> [Pfam-A.hmm](ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz)
+> ID: pfam ID of the motif(s) of PP2C
