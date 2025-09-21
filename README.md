@@ -32,7 +32,7 @@ Click ***copy info***, then extrct the seqs.
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/intersection.png)
 
-We can see that the suquence is multi-line, it may cause some error in the following analyis. Using [this program](https://github.com/18297928865/gene-family/blob/programs/multi-mono.py) to transform it to single line
+We can see that the suquence is multi-line, it may cause some error in the following analyis. Using [this program](https://github.com/18297928865/gene-family/blob/programs/multi-mono.py) to transform it to single line, that is, **blastp&HMM.sl**
 
 ```Python
 fr1=input("enter the file path of multi-line fasta")
@@ -58,3 +58,11 @@ fr.close()
 
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/multiline_program.png)
+
+## CD-search
+
+submit **blastp&HMM.sl** to [Batch cd-search tool](https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi)(E-value=0.00005). Check the result, and we can see some gene is not classified as "PP2Cc", which should be excluded. <br/>
+
+Besides, we can see some genes correspond to multiple transcripts. According to E-value and bit score, we choose only one trasncript left for each gene. Here, we will get **blastp&HMM.sl.CD**
+
+![](https://github.com/18297928865/gene-family/blob/FIIGURES/CD-search.png)
