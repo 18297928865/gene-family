@@ -24,12 +24,13 @@ Reference：[tbtools](https://www.jianshu.com/p/1643f3a90642)
 > ID: pfam ID of the motif(s) of PP2C
 Then delete the duplicates just like what we did in blastp part, the rest of which is  **HMM.list**<br>
 
+Now, intersect the **blastp.list** and **HMM.list**, we will get **blastp&HMM.list**
+
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/hmm%26blastp.png)
 
-Now, intersect the **blastp.list** and **HMM.list**, we will get **blastp&HMM.list**
+Click ***copy info***, then extrct the seqs. 
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/intersection.png)
 
-Click ***copy info***, then extrct the seqs. 
 
 We can see that the suquence is multi-line, it may cause some error in the following analyis. 
