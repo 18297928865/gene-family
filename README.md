@@ -9,3 +9,6 @@ Using pep seqs of PP2C download from [tair](https://www.arabidopsis.org/browse/g
 
 Here we repsent the result of the previous step. Delete the duplicates in columnB, the rest of which is our **blastp.list**<br>
 ## HMM
+
+Reference：[](https://www.jianshu.com/p/1643f3a90642)
+![](https://github.com/18297928865/gene-family/blob/FIIGURES/HMM.png)
