@@ -1,2 +1,5 @@
-# 基因家族成员确定
-## blast
+# Identification of the PP2C Gene Family
+> tools:blastp, pfam, CD-search, SMART
+
+## blastp
+
