@@ -10,7 +10,7 @@
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/blastp.list.png)<br>
 
-Here we repsent the result of the previous step. Delete the duplicates in columnB, the rest of which is **blastp.list**<br>
+Here we repsent the result of the previous step. Delete the duplicates in columnB, the rest of which consist of **blastp.list**<br>
 ## HMM
 
 Reference：[tbtools](https://www.jianshu.com/p/1643f3a90642)
@@ -22,7 +22,7 @@ Reference：[tbtools](https://www.jianshu.com/p/1643f3a90642)
 > [Pfam-A.hmm](ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz)
 > 
 > ID: pfam ID of the motif(s) of PP2C
-Then delete the duplicates just like what we did in blastp part, the rest of which is  **HMM.genelist**<br>
+Then delete the duplicates just like what we did in blastp part, the rest of which consist of **HMM.genelist**<br>
 
 Now, intersect the **blastp.genlist** and **HMM.genelist**, we will get **blastp&HMM.genelist**
 
@@ -61,16 +61,16 @@ fr.close()
 
 ## CD-search
 
-submit **blastp&HMM.sl.fa** to [Batch cd-search tool](https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi)(E-value=0.00005). Check the result, and we can see some gene's motif is not classified as "PP2Cc", which should be excluded. <br/>
+submit **blastp&HMM.sl.fa** to [Batch cd-search tool](https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi)(E-value=0.00005). Check the result, and we can see some gene's motifs are not classified as "PP2Cc", which should be excluded. <br/>
 
-Besides, we can see some genes correspond to multiple transcripts. According to E-value and bit score, we choose only one trasncript left for each gene. Here, we will get **blastp&HMM.sl.CD.genelist**. Than, extract seqs by ids, we will get **blastp&HMM.sl.CD.fa**
+Besides, we can see some genes correspond to multiple transcripts. According to E-value and bit score, we choose only one trasncript left for each gene. Here, we will get **blastp&HMM.sl.CD.genelist**. Than, extract seqs by ids, and we will get **blastp&HMM.sl.CD.fa**
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/CD-search.png)
 
 ## SMART
 
-submit **blastp&HMM.sl.CD.fa** to [SMART](https://smart.embl.de/). Lacking of batch-SMART tools, please submit sequences one by one.
+Submit **blastp&HMM.sl.CD.fa** to [SMART](https://smart.embl.de/). Lacking of batch-SMART tools, please submit sequences one by one.
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/smart.png)
 
-Delete genes' motif not calssified as PP2C family, the rest of which are the final genes of PP2C family. 
+Delete genes whose motifs are not calssified as PP2C family, the rest of which are the genes of PP2C family. 
