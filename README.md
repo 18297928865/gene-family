@@ -17,7 +17,7 @@ Reference：[tbtools](https://www.jianshu.com/p/1643f3a90642)
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/HMM.png)
 
-> Input： pep seqs of ipomoea batatas/trifida/triloba
+> Input: pep seqs of ipomoea batatas/trifida/triloba
 > 
 > [Pfam-A.hmm](https://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz)
 > 
