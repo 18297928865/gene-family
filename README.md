@@ -18,3 +18,7 @@
 
 Assemble all the pics together, beautify them，the final pic is here
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/gene%20location.png)
+
+##  phylogenetic tree
+
+Use [MEGA](https://protocols.mushroomlab.cn/archives/mega-usage) to construct phylogenetic tree, then beautify it by [iTOL](https://www.zhihu.com/question/56882412)
