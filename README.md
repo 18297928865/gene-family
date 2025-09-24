@@ -15,3 +15,6 @@
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/gene%20location.600dpi.jpg)
 > Adjust the parameter, the final pic looks like this 
+
+Assemble all the pics together, beautify them，the final pic is here
+![](https://github.com/18297928865/gene-family/blob/FIIGURES/gene%20location.png)
