@@ -22,6 +22,7 @@ Reference：[tbtools](https://www.jianshu.com/p/1643f3a90642)
 > [Pfam-A.hmm](https://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz)
 > 
 > ID: pfam ID of the motif(s) of PP2C
+
 Then delete the duplicates just like what we did in blastp part, the rest of which consist of **HMM.genelist**<br>
 
 Now, intersect the **blastp.genlist** and **HMM.genelist**, we will get **blastp&HMM.genelist**
