@@ -74,3 +74,5 @@ Submit **blastp&HMM.sl.CD.fa** to [SMART](https://smart.embl.de/). Lacking of ba
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/smart.png)
 
 Delete genes whose motifs are not calssified as PP2C family, the rest of which are the genes of PP2C family. 
+
+Next part, [pic](https://github.com/18297928865/gene-family/tree/pic)
