@@ -23,4 +23,4 @@ Assemble all the pics together, beautify them，the final pic is here
 
 Use [MEGA](https://protocols.mushroomlab.cn/archives/mega-usage) or TBtools to construct phylogenetic tree, then beautify it by [iTOL](https://www.zhihu.com/question/56882412) The result is as follow, just da after [bilibili](https://www.bilibili.com/video/BV1igEozmEj6/?spm_id_from=333.1391.0.0&vd_source=d43133460d16f838a81df69ba1fa0c30)
 
-![](https://github.com/18297928865/gene-family/blob/FIIGURES/with%20bootstrap.pdf)
+![]([https://github.com/18297928865/gene-family/blob/FIIGURES/with%20bootstrap.pdf](https://github.com/18297928865/gene-family/blob/FIIGURES/with%20bootstrap_01.png))
