@@ -21,4 +21,4 @@ Assemble all the pics together, beautify them，the final pic is here
 
 ##  phylogenetic tree
 
-Use [MEGA](https://protocols.mushroomlab.cn/archives/mega-usage) to construct phylogenetic tree, then beautify it by [iTOL](https://www.zhihu.com/question/56882412)
+Use [MEGA](https://protocols.mushroomlab.cn/archives/mega-usage) or TBtools to construct phylogenetic tree, then beautify it by [iTOL](https://www.zhihu.com/question/56882412)
