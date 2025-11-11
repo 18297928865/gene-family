@@ -27,3 +27,6 @@ Use [MEGA](https://protocols.mushroomlab.cn/archives/mega-usage) or TBtools to c
 >parameters are shown  above
 
 ![](https://github.com/18297928865/gene-family/blob/FIIGURES/with%20bootstrap_01.png)
+
+## Motif
+![tbtools](https://www.jianshu.com/p/f99aa7a2dc7d)
