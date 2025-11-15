@@ -32,5 +32,5 @@ Use [MEGA](https://protocols.mushroomlab.cn/archives/mega-usage) or TBtools to c
 ![tbtools](https://www.jianshu.com/p/f99aa7a2dc7d)
 
 ## Cis-acting
-![tbtools](https://blog.csdn.net/weixin_32432759/article/details/112310908) for Cis-acting (Upstream 2000bp) extracting
+![tbtools](https://blog.csdn.net/weixin_32432759/article/details/112310908)for Cis-acting (Upstream 2000bp) extracting
 ![collate the results](https://www.bilibili.com/video/BV1rM4m1C7Hm/?spm_id_from=333.1387.search.video_card.click), 
